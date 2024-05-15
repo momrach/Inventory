@@ -175,7 +175,7 @@ private val headerList = listOf(
     InventoryHeader(headerStringId = R.string.quantity_in_stock, weight = 1.0f)
 )
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun HomeScreenRoutePreview() {
     InventoryTheme {
